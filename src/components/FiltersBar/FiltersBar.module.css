@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 18px 0 18px;
+}
+
+.left {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.count {
+  font-weight: 700;
+  color: #2d2d2d;
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  position: relative;
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 42px 10px 14px;
+  font-size: 14px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.wrapper::after {
+  content: "▾";
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #2d2d2d;
+}
