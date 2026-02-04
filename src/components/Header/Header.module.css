@@ -8,9 +8,7 @@
 }
 
 .inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 16px;
+  padding-left: 5rem;
 }
 
 .logo {

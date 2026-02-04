@@ -1,0 +1,110 @@
+.page {
+  background: #ffffff;
+}
+
+.topBanner {
+  height: 90px;
+  background-image: url("/images/Hero.jpg");
+  background-size: cover;
+  background-position: right center;
+}
+
+.container {
+  background: #fff;
+  padding: 28px 16px 60px;
+}
+
+.card {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  gap: 36px;
+  padding: 26px;
+}
+
+.left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.imageBox {
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.right {
+  padding-top: 6px;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.section {
+  margin-top: 18px;
+}
+
+.sectionLabel {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 800;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.timeBadge {
+  display: inline-block;
+  background: #f2b705;
+  color: #1a1a1a;
+  font-weight: 800;
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.ingredientsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 24px;
+}
+
+.ingredientItem {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ingName {
+  font-weight: 700;
+}
+
+.ingQty {
+  color: #7a7a7a;
+  font-size: 13px;
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  color: #2d2d2d;
+}
+
+.description {
+  margin: 0;
+  line-height: 1.6;
+  color: #2d2d2d;
+}
