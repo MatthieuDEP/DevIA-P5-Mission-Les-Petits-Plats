@@ -1,0 +1,31 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.pill {
+  background: #ffd15b;
+  border: none;
+  border-radius: 8px;
+
+  padding: 8px 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.text {
+  white-space: nowrap;
+}
+
+.x {
+  font-weight: 900;
+}

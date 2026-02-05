@@ -8,11 +8,15 @@
 
 .left {
   display: flex;
-  gap: 12px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .count {
   font-weight: 700;
   color: #2d2d2d;
+}
+
+.wrapper {
+  margin: 24px 0 22px;
 }
